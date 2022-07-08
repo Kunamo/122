@@ -1,0 +1,10 @@
+NEW SESSION STARTED: Fri Jul  8 16:26:44 WEDT 2022
+Fri Jul  8 16:26:45 WEDT 2022:  Entered 2 websites to ping, results down below
+Fri Jul  8 16:26:49 WEDT 2022:  Pinging: google.com
+Fri Jul  8 16:26:52 WEDT 2022:  Pinging: youtube.com
+NEW SESSION STARTED: Fri Jul  8 16:27:20 WEDT 2022
+Fri Jul  8 16:27:20 WEDT 2022:  Entered 2 websites to ping, results down below
+Fri Jul  8 16:27:27 WEDT 2022:  Pinging: devhints.io
+Fri Jul  8 16:27:27 WEDT 2022:  devhints.io is up
+Fri Jul  8 16:27:29 WEDT 2022:  Pinging: youtube.com
+Fri Jul  8 16:27:29 WEDT 2022:  youtube.com is up

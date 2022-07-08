@@ -4,10 +4,18 @@
 #Bauen Sie das Script so, dass es entweder interaktiv abfragt (Datum, Löschen Ja/Nein) oder die Informationen als Parameter übergeben werden können.
 #Bauen Sie zusätzlich einen Verbose-Mode (Silent-Mode) ein.
 
+#Create files with older timestamp
+
+touch -d "Thu, 1 March 2018 12:30:00" plsRememberMe.txt
+touch -d "Thu, 1 March 2018 12:30:00" byeByeWorld.txt
+touch -d "Thu, 1 March 2018 12:30:00" tooLongOnThisWorld.txt
+
+waitParam=5
+
+echo "Files being created, waiting $waitParam seconds... (INFO: sometimes its buggy and might not show the files being created / deleted)"
+sleep $waitParam
+
 date=$1
 
-listfiles(){
-    find . -type f -mtime "$date" -delete
-    # find . -type f -name "$date" -delete --> works
-}
-listfiles
+find . -type f -mtime +"$1" -delete
+echo "files deleted"

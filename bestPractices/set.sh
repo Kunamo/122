@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -o errexit
 #set -p pipefail
-set -o nounset
+set -o nounset #for unbound variables
 
 function echoVar(){
   echo "${notExisting}"
