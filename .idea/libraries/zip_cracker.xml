@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="zip-cracker">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zip-cracker/vollsicher.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip-cracker/testdir.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
