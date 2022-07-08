@@ -24,4 +24,5 @@ if [ -z $rounds ]; then
 
   rand_dir_name="$(cat myRainbow.txt | tr -dc 'a-zA-Z0-9' | fold -w 16 | tail -n 1)"
   echo "Random Directory Name: "$rand_dir_name
+  echo "Random Directory Name: "$rand_dir_name >> myRandomDirectoryNames.txt
 fi
